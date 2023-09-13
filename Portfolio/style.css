@@ -834,7 +834,7 @@ section{
         margin-top: 100px;
     }
     .home-image{
-        
+        display:none;
         order: -1;
        
     }
