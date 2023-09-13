@@ -110,7 +110,7 @@ header{
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 #nav a.active{
     color: var(--hover-color);
