@@ -824,8 +824,10 @@ section{
     }
 
     .home{
-        display:block;
+        display:grid;
+        grid-template-columns: 1fr;
         padding: 100px 5%;
+        grid-gap: 0;
     }
     .home-content{
         width: auto;
@@ -834,20 +836,20 @@ section{
     .home-image{
         
         order: -1;
-        display: none;
        
     }
 
     .home img{
         justify-content: center;
         align-items: center;
+        max-width: 250px;
     }
 
  
     .liquid-shape{
         position: absolute;
       display: grid;
-         width: 90%;
+         width:100%;
          justify-content: center;
          align-items: center;
          height:30%;
