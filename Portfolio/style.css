@@ -115,6 +115,16 @@ header{
 #nav a.active{
     color: var(--hover-color);
 }
+a:active,
+li:active {
+    background: none; 
+    outline: none; 
+    
+}
+a:focus,
+li:focus {
+    outline: none;
+}
 #nav a:hover{
     color: var(--hover-color);
     text-shadow: var(--font-neon-text-shadow);
