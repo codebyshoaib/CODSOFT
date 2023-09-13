@@ -957,6 +957,19 @@ section{
         grid-template-columns: 1fr 1fr ;
         grid-gap: 40px;
     }
+      .certifications{
+       padding: 50px 5%;
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 20px;
+    }
+
+    .certificate-section{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 20px;
+       padding: 0;
+    }
     .projects-section{
         display: grid;
         grid-template-columns: 1fr;
