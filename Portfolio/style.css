@@ -842,7 +842,8 @@ section{
     .home img{
         justify-content: center;
         align-items: center;
-        max-width: 250px;
+        max-width: 200px;
+        transition: all .2s ease;
     }
 
  
@@ -852,12 +853,12 @@ section{
          width:100%;
          justify-content: center;
          align-items: center;
-         height:30%;
+         height:20%;
          z-index: -1;
          top: 50%;
     }
     .liquid-shape:nth-child(2){
-        filter: blur(50px);
+        filter: blur(60px);
     }
     .about{
         display: flex;
