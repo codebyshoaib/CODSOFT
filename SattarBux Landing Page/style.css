@@ -852,3 +852,15 @@ footer .footer-content h3{
     }
 
 }
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #016e7d; 
+    border-radius: 5px; 
+}
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #016e7d; 
+}
