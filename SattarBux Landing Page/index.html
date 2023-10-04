@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="sattar bux, sattar bux coffe, starbucks, coffe, coffe landing page">
+    <title>SattarBux Coffe</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body id="main">
+    <div class="circle">
+
+    </div>
+
+    <!--Header-->
+    <header id="header">
+        <div class="logo">
+            <img src="./assets/sattarbux.png" alt="">
+        </div>
+        <div class="nav" id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#our-story">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#our-story">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+    </header>
+    
+
+    <!--Main Banner-->
+    <section class="banner " id="banner">
+        <div class="content">
+            <div class="main-text">
+            <h2>It's not just a Coffe<br>It's <span>SattarBux</span></h2>
+            <p>where every sip tells a story. Step into our cozy haven and experience the aroma of freshly brewed coffee, the warmth of community, and the joy of shared moments. At Sattarbux, we craft more than just beverages; we create moments of delight, one cup at a time. Join us for a journey through flavors, culture, and conversations – because Sattarbux is where every cup begins with a story.</p>
+            <a href="#">Drink Sattar!</a>
+            </div>
+            <div class="img-box">
+                <img src="./assets/banner-1.png" alt="" class="sattarbux">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li class="active-thumb" onclick="slider('./assets/img1.png');changeColor('#017143')"><img src="./assets/thumb1.png" alt="" ></li>
+            <li onclick="slider('./assets/img2.png');changeColor('#eb7495')"><img src="./assets/thumb2.png" alt=""></li>
+            <li onclick="slider('./assets/img3.png');changeColor('#b52d8f')"><img src="./assets/thumb3.png" alt="" ></li>
+        </ul>
+    </section>
+
+    <!--Our Story-->
+    <section class="our-story" id="our-story">
+       <div class="main-content">
+            <div class="our-logo">
+                <img src="./assets/sattarbux.png" alt="">
+            </div>
+            <div class="main-text">
+                <h2>Our Speciality</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+
+            </div>
+       </div>
+       <div class="specials scroll-scale">
+            <div class="special ">
+                <div class="special-img">
+                    <img src="./assets/offer-1.png" alt="">
+                </div>
+                <div class="special-content">
+                    <h2>Original Coffee</h2>
+                    <hr style="width:40%; margin: 10px auto;">
+                    <p>Lorem Ipsum is simply dummy of the printing He is good mam and typesetting industry. Lorem Ipsum has been the</p>
+                </div>
+            </div>
+            <div class="special">
+                <div class="special-img">
+                    <img src="./assets/offer-2.png" alt="">
+                </div>
+                <div class="special-content">
+                    <h2>20 Coffee Flavors</h2>
+                    <hr style="width:40%; margin: 10px auto;">
+                    <p>Lorem Ipsum is simply dummy of the printing He is good mam and typesetting industry. Lorem Ipsum has been the</p>
+                </div>
+            </div>
+            <div class="special">
+                <div class="special-img">
+                    <img src="./assets/offer-3.png" alt="">
+                </div>
+                <div class="special-content">
+                    <h2>Pleasant Abient</h2>
+                    <hr style="width:40%; margin: 10px auto;">
+                    <p>Lorem Ipsum is simply dummy of the printing He is good mam and typesetting industry. Lorem Ipsum has been the</p>
+                </div>
+            </div>
+       </div>
+    </section>
+    
+    <!--menu-->
+    <section class="menu " id="menu">
+        <div class="main-text">
+            <span>Our Menu</span>
+            <h2>Buy From Sattar</h2>
+             <hr style="width:40%; margin: 10px auto;">        
+        </div>
+        <div class="menu-content">
+            <div class="item">
+                <div class="item-img">
+                    <img src="./assets/menu1.png" alt="">
+                </div>
+                <div class="item-text">
+                    <h2>Cappuccino <span class="price">RS 567/-</span></h2>
+                    <hr style="width:30%; margin: 10px 0px">
+                    <p>Lorem Ipsum is simply dummy of the printing</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="./assets/menu2.png" alt="">
+                </div>
+                <div class="item-text">
+                    <h2>Caffe Breve <span class="price">RS 367/-</span></h2>
+                    <hr style="width:30%; margin: 10px 0px">
+                    <p>Lorem Ipsum is simply dummy of the printing</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="./assets/menu3.png" alt="">
+                </div>
+                <div class="item-text">
+                    <h2>Caffe Latte <span class="price">RS 500/-</span></h2>
+                    <hr style="width:30%; margin: 10px 0px">
+                    <p>Lorem Ipsum is simply dummy of the printing</p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="./assets/menu4.png" alt="">
+                </div>
+                <div class="item-text">
+                    <h2>Macchiato <span class="price">RS 347/-</span></h2>
+                    <hr style="width:30%; margin: 10px 0px">
+                    <p>Lorem Ipsum is simply dummy of the printing</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Book Your Table-->
+    <section class="booking scroll-bottom" id="booking">
+        <div class="main-text">
+            <span>Table Reservation</span>
+            <h2>Book your Table</h2>
+        </div>
+        <div class="booking-container">
+            <form action="#">
+                <label for="name">Name <input  type="text" name="name" id="name" placeholder="Your name"></label> 
+                <label for="email">Email <input type="email" name="email" id="email" placeholder="Your email"></label> 
+                <label for="phone">Phone <input type="tel" name="phone" id="phone" placeholder="Your Phone"></label> 
+
+
+                <label for="date">Date <input type="date" name="date" id="date" placeholder="Date Of Booking"></label> 
+                <label for="time">Time <input type="time" name="time" id="time" placeholder="Time Of Booking"></label> 
+                <label for="occasion">Ocassion <select name="occasion" id="occasion"><option value="birthday" >Birthday</option><option value="birthday">Anniversary</option></select></label> 
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- counter Section
+    <section class="counter-section" id="counter-section">
+        <div class="counter-container">
+
+            <div class="counter">
+                <img src="./assets/icon1.svg" alt="">
+                <h2>3k+</h2>
+                <p>Coffe of Cups</p>
+            </div>
+
+            <div class="counter">
+                <img src="./assets/icon1.svg" alt="">
+                <h2>3k+</h2>
+                <p>Coffe of Cups</p>
+            </div>
+
+            <div class="counter">
+                <img src="./assets/icon1.svg" alt="">
+                <h2 > 3k+</h2>
+                <p>Coffe of Cups</p>
+            </div>
+
+            <div class="counter">
+                <img src="./assets/icon1.svg" alt="">
+                <h2>3k+</h2>
+                <p>Coffe of Cups</p>
+            </div>
+
+        </div>
+    </section> -->
+    
+    <section class="contact" id="contact">
+        <div class="main-text">
+            <span>Having Queries?</span>
+            <h2>Contact Sattar</h2>
+        </div>
+        <div class="contacts-container scroll-scale">
+
+            <div class="contact-box">
+                <div class="img-box">
+                    <img src="./assets/phone-flip-svgrepo-com.svg" alt="">
+                    <h2>Working Hours</h2>
+                    <hr style="width:40%; margin: 10px auto;">      
+                </div>
+                <div class="box-text">
+                    <p><span>Mon - Fri </span>10:00 AM - 11:00 PM</p>
+                    <p><span>Sat - Sun </span>10:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <div class="img-box">
+                    <img src="./assets/phone-flip-svgrepo-com.svg" alt="">
+                    <h2>Shop Contact</h2>
+                    <hr style="width:40%; margin: 10px auto;">      
+                </div>
+                <div class="box-text">
+                    <p><span>Email: </span>info@sattar.com</p>
+                    <p><span>Phone: </span>+92 3103197715</p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <div class="img-box">
+                    <img src="./assets/phone-flip-svgrepo-com.svg" alt="">
+                    <h2>Shop Location</h2>
+                    <hr style="width:40%; margin: 10px auto;">      
+                    
+                </div>
+                <div class="box-text">
+                    <p><span>Caffe Address: </span>350 Fifth Avenue, 34th floor. New York.</p>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer >
+        <hr style="width:100%; border: solid 1px #018ea0;"> 
+        <div class="footer-content">
+            <h2 class="scroll-scale">SattarBux</h2>
+            <h3 class="scroll-scale">&copy 2023 SattarBux - All Rights Reserved.</h3>
+        </div>
+    </footer>
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
